@@ -21,7 +21,7 @@ Self checklist
 - [ ] I have titled my PR with REGION | COHORT_NAME | FIRST_NAME LAST_NAME | PROJ_NAME
 - [ ] I have tested my changes
 - [ ] My changes follow the [style guide](https://curriculum.codeyourfuture.io/guides/reviewing/style-guide/)
-- [ ] My changes meet the [requirements](./README.md) of this task
+- [ ] My changes meet the requirements specified in `README.md` of this task
 
 ## Changelist
 
