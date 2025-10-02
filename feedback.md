@@ -1,4 +1,11 @@
-# General Feedback 
+# PR Guide
+  - [What is PR and how is PR use in CYF course](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/_index.md)
+  - [How to keep branch and code clean and professional](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/keeping-branch-clean/index.md)
+  - [How open a PR to submit your work](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/opening-a-pr/index.md)
+  - [How to use labels in a PR](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/using-labels/index.md)
+  - [How to respond to reviewer's feedback in a PR](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/responding-to-comments/index.md)
+
+# General Feedback for PRs in Module Onboarding
 
 ### Ensure our HTML/CSS code is error free
 
