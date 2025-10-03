@@ -43,3 +43,5 @@ best practices.
 4. **Validate with W3C validators** after making changes to ensure standards compliance.
 5. **Learn from patterns**. Notice what kinds of mistakes AI points out, and work on avoiding them in future projects.
 
+Don’t worry: using AI is **not cheating**. You can accept AI suggestions, but only if you understand them well enough to explain the change.
+Once you can do that, the learning truly becomes yours.
