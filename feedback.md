@@ -56,3 +56,29 @@ best practices.
 
 Using AI is **not cheating**. You can accept AI suggestions, but only if you understand them well enough to explain the change.
 Once you can do that, the learning truly becomes yours.
+
+---
+
+## General Feedback for Wireframe PR
+
+### Does your page layout match the wireframe?
+<img src="Wireframe/wireframe.png" width="640" alt="The wireframe image in the Wireframe exercise">
+
+When a wireframe is provided, our implementation should closely reflect its appearance and layout to ensure consistency with 
+design expectations. The main purpose of implementing a wireframe is to translate structure and functionality, not final visual 
+design. Visual design is usually handled by UI/graphic designers after the wireframe phase. So for examples, in your implementation:
+- Are the PAGE TITLE and the SHORT DESCRIPTION beneath it centered horizontally on the page?
+- Do all artiles have a border?
+- Do the images in the article spans the full width of their respective articles?
+- Do the images in articles 2 and 3 have the same height?
+- Are the ARTICLE TITLE, ARTICLE SUMMARY, and the README link left aligned within each article?
+- Do the left border of articles 1 and 2 align?
+- Do the right border of articles 1 and 3 align?
+- Do articles 2 and 3 have the same width?
+- Do the README links all have a border?
+
+### Is the footer **fixed** at the bottom of the **viewport**?
+  - What does "fixed" mean?
+  - What does "viewport" mean?
+
+Suggestion: Use an AI tool to find out what this requirement mean.
