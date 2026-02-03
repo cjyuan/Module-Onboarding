@@ -1,11 +1,17 @@
-# PR Guide
-  - [What is PR and how is PR use in CYF course](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/_index.md)
-  - [How to keep branch and code clean and professional](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/keeping-branch-clean/index.md)
-  - [How open a PR to submit your work](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/opening-a-pr/index.md)
-  - [How to use labels in a PR](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/using-labels/index.md)
-  - [How to respond to reviewer's feedback in a PR](https://github.com/cjyuan/curriculum/blob/feature/pr-guide/org-cyf-guides/content/trainee-pr-guide/responding-to-comments/index.md)
+## PR Guide
+  - Read the [PR Guide](https://programming.codeyourfuture.io/guides/reviewing/trainee-pr-guide/) to find out how
+    to prepare a PR, use labels, and respond to reviewer's feedback.
 
-# General Feedback for PRs in Module Onboarding
+## General Feedback for PRs in Module Onboarding
+
+### Is the PR Description correctly formatted in Markdown syntax?
+
+- Do the checked checkboxes look like this?
+   - [x] I have tested my changes
+
+- Is "Changelist" properly formatted as a level 2 header (so that it appears in larger font)?
+
+Suggestion: If you are new to Markdown, you may find this [Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github) article useful.
 
 ### Ensure our HTML/CSS code is error free
 
@@ -15,6 +21,8 @@ a consistent user experience across browsers and devices.
 Have you used to following services to validate your HTML and CSS code?
 - HTML - [W3C Markup Validation](https://validator.w3.org/)
 - CSS - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+  - Note: This service does not seem work well with nested CSS selectors or variables.
+    If this service does not work for you, try using an AI tool instead.
 
 ### Code Indentation
 
@@ -35,13 +43,16 @@ best practices.
 
 #### How to use AI to review your code:
 1. **Copy and paste your code into the AI** and ask questions like:
-    - “Is my HTML valid?”
-    - “Can you check if my CSS is correct?”
-    - “How can I improve the structure of this code?”
-2. **Read the feedback critically** – decide which suggestions to accept.
+    - "Is my HTML valid?"
+    - "Can you check if my CSS is correct?"
+    - "Can you check for typo and consistency in my code?"
+    - "How can I make my HTML more accessible?"
+    - "Can you suggest possible improvement?"
+2. **Read the feedback critically** – decide which suggestions to accept. 
+    - You should only accept the suggestions if you understand what they mean.
 3. **Apply changes step by step** so you can see the effect of each fix.  
 4. **Validate with W3C validators** after making changes to ensure standards compliance.
 5. **Learn from patterns**. Notice what kinds of mistakes AI points out, and work on avoiding them in future projects.
 
-Don’t worry: using AI is **not cheating**. You can accept AI suggestions, but only if you understand them well enough to explain the change.
+Using AI is **not cheating**. You can accept AI suggestions, but only if you understand them well enough to explain the change.
 Once you can do that, the learning truly becomes yours.
