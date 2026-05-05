@@ -11,14 +11,45 @@
     <header>
       <h1>T-Shirt Order</h1>
     </header>
-    <main>
-      <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
-      </form>
-    </main>
+   <main>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>
+          Name
+          <input type="text" name="name" pattern="^[A-Za-z]{2,20}$" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Product Information</legend>
+
+        <label>T-Shirt Colour:</label>
+
+        <label>Red<input type="radio" name="colour" value="red" required></label>
+        <label>Blue<input type="radio" name="colour" value="blue"></label>
+        <label>Green<input type="radio" name="colour" value="green"></label>
+
+        
+        <label>T-Shirt Size:</label>
+        <label>XS<input type="radio" name="size" value="extra-small" required></label>
+        <label>S<input type="radio" name="size" value="small"></label>
+        <label>M<input type="radio" name="size" value="medium"></label>
+        <label>L<input type="radio" name="size" value="large"></label>
+        <label>XL<input type="radio" name="size" value="extra-large"></label>
+        <label>XXL<input type="radio" name="size" value="double-extra-large"></label>
+      </fieldset>
+
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </main>
     <footer>
       <p>By CJ Yuan</p>
     </footer>
